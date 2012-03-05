@@ -116,6 +116,13 @@ st2.last_name   = "pop"
 st2.save
 
 fst1 = Story.find(1)
+puts fst1.first_name
+puts fst1.middle_name
+puts fst1.last_name 
+
 fst2 = Story.find(2)
+puts fst2.first_name
+puts fst2.middle_name
+puts fst2.last_name 
 
 puts "done"
