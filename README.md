@@ -19,11 +19,11 @@ scaffold a story resource
 
 prep the db
 
-`rake db:migrate`
+`$ rake db:migrate`
 
 now run the server
 
-`$ rails server'
+`$ script/rails server`
 
 the resource will be located at
  
